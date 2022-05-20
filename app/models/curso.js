@@ -4,5 +4,5 @@ module.exports = function() {
         curso: { type: String, required: true },
         coordenador: { type: String, required: true, index: { unique: true } }
     });
-    return mongoose.model('curso', schema);
+    return mongoose.model('Curso', schema);
 };
