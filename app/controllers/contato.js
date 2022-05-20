@@ -1,7 +1,7 @@
 module.exports = function(app) {
     var Contato = app.models.contato;
     var controller = {};
-    var verificaAutenticacao = require('../../config/auth');
+    var verificaAutenticacao = require('../../DSWA5/config/auth');
 
 module.exports = function (app) {
     var controller = app.controllers.contato;
